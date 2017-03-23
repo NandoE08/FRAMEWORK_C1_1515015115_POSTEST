@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Pengguna extends Model
 {
     protected $table = 'pengguna';
-    protected $fillabel = ['username','password'];
+    // protected $fillabel = ['username','password'];
 }
