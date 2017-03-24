@@ -20,7 +20,7 @@ class PenggunaController extends Controller
         return view('pengguna.tambah');
     }
 
-    public function simpan(Requests $input)
+    public function simpan(Request $input)
     {
         $pengguna = new Pengguna();
         $pengguna->username = $input->username;
@@ -41,7 +41,7 @@ class PenggunaController extends Controller
         return view('pengguna.lihat')->with(array('pengguna'=>$pengguna));
     }
     
-    public function update($id, Requests $input)
+    public function update($id, Request $input)
     {
         $pengguna = Pengguna::find($id);
         $pengguna->username = $input->username;
