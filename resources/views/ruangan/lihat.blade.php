@@ -6,7 +6,7 @@
 	</div>
 	<table class="table">
 			<tr>
-				<td>Title/td>
+				<td>Title</td>
 				<td>:</td>
 				<td>{{$ruangan->title}}</td>
 			</tr>

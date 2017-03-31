@@ -18,6 +18,6 @@ class dosen_matakuliahController extends Controller
     	$dosen_matakuliah->dosen_id = '3';
     	$dosen_matakuliah->matakuliah_id = '1';
     	$dosen_matakuliah->save();
-    	return "Data Dengan Username {$dosen_matakuliah->dosen_id} telah disimpan";
+    	return "Data Dengan id {$dosen_matakuliah->dosen_id} telah disimpan";
     }
 }

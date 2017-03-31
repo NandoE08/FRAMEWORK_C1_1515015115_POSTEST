@@ -23,6 +23,6 @@ class mahasiswaController extends Controller
     	$mahasiswa->alamat = 'Jl.Nort West 14';
     	$mahasiswa->pengguna_id = '2';
     	$mahasiswa->save();
-    	return "Data Dengan Username {$mahasiswa->nama} telah disimpan";
+    	return "Data Dengan Name {$mahasiswa->nama} telah disimpan";
     }
 }

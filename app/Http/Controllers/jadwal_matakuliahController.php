@@ -19,6 +19,6 @@ class jadwal_matakuliahController extends Controller
     	$jadwal_matakuliah->ruangan_id = '1';
     	$jadwal_matakuliah->dosen_matakuliah_id = '1';
     	$jadwal_matakuliah->save();
-    	return "Data Dengan Username {$jadwal_matakuliah->mahasiswa_id} telah disimpan";
+    	return "Data Dengan id {$jadwal_matakuliah->mahasiswa_id} telah disimpan";
     }
 }

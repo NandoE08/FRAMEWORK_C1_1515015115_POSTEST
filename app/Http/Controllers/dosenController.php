@@ -23,6 +23,6 @@ class dosenController extends Controller
     	$dosen->alamat = 'Jl.Westen 07';
     	$dosen->pengguna_id = '1';
     	$dosen->save();
-    	return "Data Dengan Username {$dosen->nama} telah disimpan";
+    	return "Data Dengan Name {$dosen->nama} telah disimpan";
     }
 }

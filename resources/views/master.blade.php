@@ -98,7 +98,7 @@
     </div>
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <footer class="container">
-            
+            Created By nX-Style
         </footer>
     </nav>
     <script type="text/javascript" src="{{asset('component/jquery/dist/jquery.min.js')}}"></script>
