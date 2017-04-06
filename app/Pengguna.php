@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class Pengguna extends Model
 {
     protected $table = 'pengguna';
-    protected $fillabel = ['username','password'];
+    protected $fillable = ['username','password'];
     
 	public function mahasiswa(){
 		return $this->hasOne(mahasiswa::class,'pengguna_id');
 	}
 	
 	public function dosen(){
-		return $this->hasOne(mahasiswa::class,'pengguna_id');
+		return $this->hasOne(dosen::class,'pengguna_id');
 	}
 }
